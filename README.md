@@ -25,11 +25,10 @@ null model can be seen as follows (10-fold cross-validation and the same preproc
 dataset with the cleaned data were used in all cases)
 
 | Classifier   |      Accuracy      |
-|----------|:-------------:|------:|
+| ------------- | ------------- |
 | Null model (ZeroR - WEKA) |  53.6% |
 | NaiveBayes (WEKA) |    80.1%   |
 | Multinominal NBC with inverse document frequency | 95. 8 % |
-| | |
 
 The null model and Naive Bayes classifier of WEKA were used as the benchmark to evaluate
 the performance of our model. The null model, which classified all instances as the majority
